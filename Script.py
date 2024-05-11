@@ -145,6 +145,7 @@ I can't find the <b>{}</b> in my database! 🥲
 /unban_user - to unban a users from bot
 /users - to get all users details
 /chats - to get all groups
+/add_premium - Add Premium 
 /invite_link - to generate invite link
 /index - to index bot accessible channels</b>"""
     
