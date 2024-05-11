@@ -595,7 +595,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚡ Fancy Font', callback_data='font') 
          ], [
             InlineKeyboardButton('🎨 GitHub Repo', callback_data='github'), 
-             InlineKeyboardButton('🌐 Open Al', callback_data='openai') 
+             InlineKeyboardButton('🚀 InstaFlix', callback_data='openai') 
          ], [
             InlineKeyboardButton('🏡 Home', callback_data='start')
         ]]
