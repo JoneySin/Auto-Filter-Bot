@@ -10,6 +10,5 @@ shortzy
 aiohttp
 aiofiles
 telegraph
-openai
 speedtest-cli
 bs4
