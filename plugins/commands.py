@@ -324,7 +324,7 @@ async def settings(client, message):
             InlineKeyboardButton('Stream', callback_data=f'setgs#is_stream#{settings.get("is_stream", IS_STREAM)}#{str(grp_id)}'),
             InlineKeyboardButton('✅ On' if settings.get("is_stream", IS_STREAM) else '❌ Off', callback_data=f'setgs#is_stream#{settings.get("is_stream", IS_STREAM)}#{str(grp_id)}')
         ],[
-            InlineKeyboardButton('❌ Close ❌', callback_data='close_data')
+            InlineKeyboardButton('🙅 Close', callback_data='close_data')
         ]]
         await message.reply_text(
             text=f"Change your settings for <b>'{message.chat.title}'</b> as your wish. ⚙",
