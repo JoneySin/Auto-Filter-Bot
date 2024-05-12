@@ -15,13 +15,13 @@ async def showid(client, message):
     if replied_to_msg:
         return await message.reply_text(f"""The forwarded message channel {replied_to_msg.chat.title}'s id is, <code>{replied_to_msg.chat.id}</code>.""")
     if chat_type == enums.ChatType.PRIVATE:
-        await message.reply_text(f'★ User ID: <code>{message.from_user.id}</code>')
+        await message.reply_text(f'🦹 User ID: <code>{message.from_user.id}</code>')
 
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
-        await message.reply_text(f'★ Group ID: <code>{message.chat.id}</code>')
+        await message.reply_text(f'👪 Group ID: <code>{message.chat.id}</code>')
 
     elif chat_type == enums.ChatType.CHANNEL:
-        await message.reply_text(f'★ Channel ID: <code>{message.chat.id}</code>')
+        await message.reply_text(f'📣 Channel ID: <code>{message.chat.id}</code>')
 
 
 @Client.on_message(filters.command('speedtest') & filters.user(ADMINS))
