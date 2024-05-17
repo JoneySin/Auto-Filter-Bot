@@ -82,7 +82,7 @@ SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/TheUncutFile')
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/YourX")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/YourXCloud')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/UncutFile')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/HA_Bots")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/PostWild")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/TeamYourX")
 
 # Bot settings
