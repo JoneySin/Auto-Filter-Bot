@@ -78,6 +78,12 @@ I can't find the <b>{}</b> in my database! 🥲
 👉 Google Search and check your spelling is correct.
 👉 Please read the Instructions to get better results.
 👉 Or not been released yet."""
+
+    INSTAGRAM_TXT = """<b>You Can Use This Feature To Download Instagram Reel And Photos.  
+   
+ 🚀 How To Use
+ ⚡ Send Me Instagram Post Link.
+ </b>"""
     
     EARN_TXT = """<b>ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ
 
